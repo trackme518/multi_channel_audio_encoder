@@ -11,7 +11,10 @@ Download links provide zipped archive with the tool. You don't need to install a
 ### MacOS
 On MacOs you need to allow installation from unknown sources. Open the Apple menu > System Preferences > Security & Privacy > General tab. Under Allow apps downloaded from select App Store and identified developers. To launch the app simply Ctrl-click on its icon > Open.
 
+![Encoder screenshot](./img/encoder_screenshot.jpg)
+
 ## How to use it?
+After unzipping simply double click the executable to run the encoder. You will see a 
 
 ## How does it work?
 Under the hood the tool is programmed in Java for providing GUI and drag and drop functionality and for encoding it relies on [FFmpeg](https://ffmpeg.org/) library. This also means you can create these files even without the tool just using FFmpeg and command line.
