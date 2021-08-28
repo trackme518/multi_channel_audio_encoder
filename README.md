@@ -7,11 +7,18 @@ Trick the Ear Multi-channel audio encoder is a tool for creating audio files tha
 ## Download
 * [MacOS](https://mega.nz/file/URgSzDDa#iV62VSkcKXTXX1OZ--E6CitO6VFUvgkgLsJXFOtLNmw)
 * [Windows64bit](https://mega.nz/file/lJ4yUTAQ#U1-rcp02J-Gb2kYcddS7tO6iXsyjtehen2FCeBn0aEs)
+* [Linux64bit](https://mega.nz/file/MNwSEJgI#v0rLUg8VBAzK79k938M3my7O1f_47bJezldYIHv1YEM)
 
 Download links provide zipped archive with the tool. You don't need to install anything - just unzip it and run "create_multichannel_audio2.exe" file. In case the links are not working you can also download the encoder directly from Github (click green "Code" button on upper left and select download ZIP).
 
+### Windows
+Tested on Windows 10. It should work out of the box. Just double click the "create_multichannel_audio2.exe" file.
+
 ### MacOS
-On MacOs you need to allow installation from unknown sources. Open the Apple menu > System Preferences > Security & Privacy > General tab. Under Allow apps downloaded from select App Store and identified developers. To launch the app simply Ctrl-click on its icon > Open.
+Tested on Catalina OS. On MacOs you need to allow installation from unknown sources. Open the Apple menu > System Preferences > Security & Privacy > General tab. Under Allow apps downloaded from select App Store and identified developers. To launch the app simply Ctrl-click on its icon > Open.
+
+### Linux
+Tested on Ubuntu 64bit. You can always run the app from the terminal. If using GUI and the app does not run when you double click the "create_multichannel_audio2" file icon you need to change the settings of your file explorer. In Nautilus file explorer click the hamburger menu (three lines icon next to minimise icon ), select "preferences". Click on "behaviour" tab, in the "Executable Text Files" option select "Run them". Close the dialogue and double click the "create_multichannel_audio2" file icon (bash script) - now it should start. The encoder is using [static builds](https://johnvansickle.com/ffmpeg/) of FFmpeg inside the "data" folder. You can swap that for your own ffmpeg build if needed.    
 
 ## How to use it?
 After unzipping simply double click the executable to run the encoder. You will see a yellow window. Now you can drag and drop each audio stem / file that you want to merge onto the window. Their names will appear in the list. You can click "DEL" next to each other to remove it or click "CLEAR" to delete them all (they are only removed from the list, not physically deleted). Ensure that all the audio files you want to merge are of the same duration. When you have all the audio stems / files you want to merge into single song selected click "EXPORT". Now wait until the encoding is done and after you will find the exported file inside the "data" folder of the encoder. The folder with the exported file will automatically open. Now you can use this multi-channel file with the Trick the Ear spatial audio player.
