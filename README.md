@@ -14,7 +14,14 @@ Download links provide zipped archive with the tool. You don't need to install a
 On MacOs you need to allow installation from unknown sources. Open the Apple menu > System Preferences > Security & Privacy > General tab. Under Allow apps downloaded from select App Store and identified developers. To launch the app simply Ctrl-click on its icon > Open.
 
 ## How to use it?
-After unzipping simply double click the executable to run the encoder. You will see a 
+After unzipping simply double click the executable to run the encoder. You will see a yellow window. Now you can drag and drop each audio stem / file that you want to merge onto the window. Their names will appear in the list. You can click "DEL" next to each other to remove it or click "CLEAR" to delete them all (they are only removed from the list, not physically deleted). When you have all the audio stems / files you want to merge into single song selected click "EXPORT". Now wait until the encoding is done and after you will find the exported file inside the "data" folder of the encoder. The folder with the exported file will automatically open.
+
+Note that you can also adjust few settings. Click on the "SETTINGS" tab.  
+* quality - adjust the bitrate. This is only used when the automatic quality is off. 
+* automatic quality - whether to adjust bitrate automatically based on number of files. Turn this off if you are encoding single multi-channel file.
+* multichannel input - default false. Change this to true if you already have multichannel .wav file and want to convert it to .aac for example.
+* ogg export - whether to export the .ogg file should be exported as well. This is needed to ensure cross compatiblity with all web browsers. 
+* aac export - whether to export the .aac file
 
 ## How does it work?
 Under the hood the tool is programmed in Java for providing GUI and drag and drop functionality and for encoding it relies on [FFmpeg](https://ffmpeg.org/) library. This also means you can create these files even without the tool just using FFmpeg and command line.
