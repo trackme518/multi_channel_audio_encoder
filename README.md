@@ -12,7 +12,7 @@ Trick the Ear Multi-channel audio encoder is a tool for creating audio files tha
 Download links provide zipped archive with the tool. You don't need to install anything - just unzip it and run "create_multichannel_audio2.exe" file. In case the links are not working you can also download the encoder directly from Github (click green "Code" button on upper left and select download ZIP).
 
 ### Windows
-Tested on Windows 10. It should work out of the box. Just double click the "create_multichannel_audio2.exe" file. If you are using antivirus such as Windows Defender it will show warning - you can safely click "More info" and choose "Run anyway".
+Tested on Windows 10. It should work out of the box. Just double click the "create_multichannel_audio2.exe" file. If you are using antivirus such as Windows Defender it will show warning - you can safely click "More info" and choose "Run anyway". Next time it should run without warning.
 
 ### MacOS
 Tested on Catalina OS. On MacOs you need to allow installation from unknown sources. Open the Apple menu > System Preferences > Security & Privacy > General tab. Under Allow apps downloaded from select App Store and identified developers. To launch the app simply Ctrl-click on its icon > Open.
