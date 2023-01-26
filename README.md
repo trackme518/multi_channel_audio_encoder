@@ -2,7 +2,7 @@
 
 Trick the Ear Multi-channel audio encoder is a tool for creating audio files that can be played in Trick the Ear spatial audio player. Please have a look at the live demo at [tricktheear.eu](https://tricktheear.eu/). Encoder will accept multiple individual audio files and merge them into one multi-channel audio file. Each input file is encoded as a separate audio channel.
 
-![GUI screenshot](./assets/GUI_thin.jpg)
+![GUI screenshot](./img/encoder_screenshot.jpg)
 
 ## Download
 * [MacOS](https://mega.nz/file/URgSzDDa#iV62VSkcKXTXX1OZ--E6CitO6VFUvgkgLsJXFOtLNmw)
